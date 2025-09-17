@@ -1,0 +1,42 @@
+/*body {*/
+/*  margin: 0;*/
+/*  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',*/
+/*    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',*/
+/*    sans-serif;*/
+/*  -webkit-font-smoothing: antialiased;*/
+/*  -moz-osx-font-smoothing: grayscale;*/
+/*}*/
+
+/*code {*/
+/*  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',*/
+/*    monospace;*/
+/*}*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+
+  @font-face {
+    font-family: 'Lato';
+    src: url("./fonts/Lato/Lato-Regular.ttf");
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: 'Lato';
+    src: url("./fonts/Lato/Lato-Light.ttf");
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Ubuntu Sans';
+    src: url("./fonts/UbuntuSans/UbuntuSans-VariableFont_wdth,wght.ttf");
+  }
+
+  @font-face {
+    font-family: "EyesomeScript";
+    src: url('./fonts/EyesomeScript/font.woff2') format('woff2'), url('./fonts/EyesomeScript/font.woff') format('woff');
+  }
+
+}
+
