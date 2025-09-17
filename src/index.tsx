@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/test-area-new/atrium-react">
+    <BrowserRouter basename="/test-area/atrium-react">
       <App />
     </BrowserRouter>
   </React.StrictMode>
